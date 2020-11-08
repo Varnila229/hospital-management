@@ -1,0 +1,24 @@
+## PostgreSQL DAO Configuration
+#spring:
+#  data:
+#    sql:
+#      repositories:
+#        enabled: "true"
+#  sql:
+#    hibernate:
+#      ddl-auto: "update"
+#    database-platform: "${SPRING_JPA_DATABASE_PLATFORM:org.hibernate.dialect.PostgreSQLDialect}"
+#  jpa:
+#  datasource:
+#    driverClassName: "${SPRING_DRIVER_CLASS_NAME:org.postgresql.Driver}"
+#    url: "jdbc:postgresql://${SPRING_DATASOURCE_URL:192.168.1.102:5432}/hospital"
+#    username: "${SPRING_DATASOURCE_USERNAME:postgres}"
+##    password: "${SPRING_DATASOURCE_PASSWORD:ENC(7GQy8o2dKOYn0aInWq+pGTlj8fJouDJb)}"
+#    password: "${SPRING_DATASOURCE_PASSWORD:postgres}"
+#    generate-ddl: true
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        format_sql: true
+#
+#
